@@ -2,7 +2,7 @@
 Various scripts commonly used in bioinformatics，genomics and deep learning
 
 ## genomics
- * Screen for genes which include structural variants（SVs）
+ * Screen for genes which include structural variants（`sv_gene_overlap`）
 
    `python search_gene.py --sv sv.txt --gff genome.gff --k 0.5`
 
